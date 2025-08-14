@@ -1,0 +1,19 @@
+public class SwitchCase {
+    puclic static void mai(String[] args) {
+        int diaDasemana=4;
+        String nomeDoDia;
+        switch(diaDasemana){
+            case 1:nomdeDoDia="Domingo";break;
+            case 2:nomdeDoDia="Segunda";break;
+            case 3:nomdeDoDia="Terça";break;
+            case 4:nomdeDoDia="Quarta";break;
+            case 5:nomdeDoDia="Quinta";break;
+            case 6:nomdeDoDia="sexta";break;
+            case 7:nomdeDoDia="Sabado";break;
+            default:nomdeDoDia="Dia inválido";
+
+        }
+    System.out.println(nomeDoDia);
+    }
+
+}

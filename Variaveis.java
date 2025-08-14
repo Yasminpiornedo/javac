@@ -12,9 +12,11 @@ public class Variaveis {
        boolean casado = true; 
 
 
-       System.out.prin("Meu nome é "+meuNome);
-       System.out.print(" minha idade  é "+idade);
-       System.out.print(" anos e minha altura é "+altura);
+       System.out.print("Meu nome é "+ meuNome);
+       System.out.print(" minha idade  é "+ idade + "anos");
+       System.out.print(" minha altura " + altura);
+       System.out.print(" Sou casado"+ casado);
+       System.out.print(" Sou do sexo "+ sexo);
        
-    }
+}
 }
